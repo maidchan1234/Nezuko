@@ -3,10 +3,10 @@ const chalk = require("chalk");
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "917003213983, 923087880256";
+  gg = "087752286364, 081228398601";
 }
 
-global.owner = gg.split(",");
+global.owner = gg.split("Dyo Rizqi Dewangga");
 global.mongodb = process.env.MONGODB || "none";
 global.prefa = process.env.PREFIX || "."
 global.ggle = process.env.GOOGLE_API || "none"
